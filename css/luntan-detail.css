@@ -25,13 +25,13 @@ body { background: #f1f1f1; }
 .comment-area .area-content h3 i { color: #999; margin-left: 20px; }
 .comment-area .area-content .write { font-size: 22px; margin: 30px 0; }
 .comment-area .area-content .write button { width: 160px; height: 70px; line-height: 70px; text-align: center; background: #fba320; color: #fff; margin-left: 50px; border: none; border-radius: 5px; outline: 0 none; }
-.comment-area .area-content .write input { -webkit-box-flex: 1; -webkit-flex: 1; -ms-flex: 1; flex: 1; height: 70px; border: none; outline: 0 none; text-indent: 15px; color: #999; border-radius: 5px; background: #f1f1f1; }
-.comment-area .area-content .some-say dl { -webkit-box-align: start; -webkit-align-items: flex-start; -ms-flex-align: start; align-items: flex-start; border-bottom: 1px solid #ccc; margin-top: 50px; }
+.comment-area .area-content .write input { flex: 1; height: 70px; border: none; outline: 0 none; text-indent: 15px; color: #999; border-radius: 5px; background: #f1f1f1; }
+.comment-area .area-content .some-say dl { align-items: flex-start; border-bottom: 1px solid #ccc; margin-top: 50px; }
 .comment-area .area-content .some-say dl dt { width: 60px; height: 60px; border-radius: 50%; margin-right: 30px; }
-.comment-area .area-content .some-say dl dd { -webkit-box-flex: 1; -webkit-flex: 1; -ms-flex: 1; flex: 1; }
+.comment-area .area-content .some-say dl dd { flex: 1; }
 .comment-area .area-content .some-say dl dd > p span { font-size: 24px; }
 .comment-area .area-content .some-say dl dd > p i { color: #999; margin-left: 30px; }
-.comment-area .area-content .some-say dl dd .say-text { margin: 30px 0; -webkit-box-align: start; -webkit-align-items: flex-start; -ms-flex-align: start; align-items: flex-start; }
+.comment-area .area-content .some-say dl dd .say-text { margin: 30px 0; align-items: flex-start; }
 .comment-area .area-content .some-say dl dd .say-text p { width: 650px; font-size: 20px; color: #666; }
 .comment-area .area-content .some-say dl dd .say-text h4 em { display: inline-block; width: 30px; height: 30px; margin-left: 20px; }
 .comment-area .area-content .some-say dl dd .say-text h4 span { color: #999; margin-left: 10px; }

@@ -35,12 +35,12 @@ body { background: #f1f1f1; }
 .section-box .tab-content .sec1 ul { color: #999; }
 .section-box .tab-content .sec1 ul li { padding: 10px 0; margin: 15px 0; }
 .section-box .tab-content .sec1 ul li i { display: inline-block; width: 150px; }
-.section-box .tab-content .sec1 ul li p { -webkit-box-flex: 1; -webkit-flex: 1; -ms-flex: 1; flex: 1; }
+.section-box .tab-content .sec1 ul li p { flex: 1; }
 .section-box .tab-content .sec1 .tip { margin-top: 20px; padding: 5px 0; color: #666; background: #f1f1f1; }
 .section-box .tab-content .sec1 .tip b { color: #fba320; }
 .section-box .tab-content .sec2 { background: #fff; }
 .section-box .tab-content .sec2 .tiezi-top { width: 100%; border: 1px solid #ccc; margin-bottom: 50px; }
-.section-box .tab-content .sec2 .tiezi-top .top { -webkit-box-align: start; -webkit-align-items: flex-start; -ms-flex-align: start; align-items: flex-start; padding: 0 20px; background: #fff; }
+.section-box .tab-content .sec2 .tiezi-top .top { align-items: flex-start; padding: 0 20px; background: #fff; }
 .section-box .tab-content .sec2 .tiezi-top .top .top-left { width: 80%; }
 .section-box .tab-content .sec2 .tiezi-top .top .top-left textarea { width: 100%; height: 80px; border: none; outline: 0 none; resize: none; padding: 10px; }
 .section-box .tab-content .sec2 .tiezi-top .top .top-left .img-box { width: 100%; margin: 10px; overflow: auto; }
@@ -73,7 +73,7 @@ body { background: #f1f1f1; }
 .section-box .tab-content .sec3 .product-list .product-item:last-child { border-bottom: none; }
 .section-box .tab-content .sec3 .product-list .product-item h3 { display: inline-block; padding: 10px 0; border-bottom: 1px solid #fc5455; font-size: 22px; margin-bottom: 60px; }
 .section-box .tab-content .sec3 .product-list .product-item .row-item-right { overflow: hidden; height: 100%; }
-.section-box .tab-content .sec3 .product-list .product-item .row-item-right > div { height: 100%; -webkit-box-align: start; -webkit-align-items: flex-start; -ms-flex-align: start; align-items: flex-start; }
+.section-box .tab-content .sec3 .product-list .product-item .row-item-right > div { height: 100%; align-items: flex-start; }
 .section-box .tab-content .sec3 .product-list .product-item .row-item-right .same-box { text-align: center; }
 .section-box .tab-content .sec3 .product-list .product-item .row-item-right b { display: block; color: #fd0303; font-size: 30px; font-weight: normal; }
 .section-box .tab-content .sec3 .product-list .product-item .row-item-right i { font-size: 20px; }
@@ -86,16 +86,16 @@ body { background: #f1f1f1; }
 .section-box .tab-content .sec4 .product-list .product-item:last-child { border-bottom: none; }
 .section-box .tab-content .sec4 .product-list .product-item h3 { display: inline-block; padding: 10px 0; border-bottom: 1px solid #fc5455; font-size: 22px; margin-bottom: 60px; }
 .section-box .tab-content .sec4 .product-list .product-item .row-item-right { overflow: hidden; height: 100%; }
-.section-box .tab-content .sec4 .product-list .product-item .row-item-right > div { height: 100%; -webkit-box-align: start; -webkit-align-items: flex-start; -ms-flex-align: start; align-items: flex-start; }
+.section-box .tab-content .sec4 .product-list .product-item .row-item-right > div { height: 100%; align-items: flex-start; }
 .section-box .tab-content .sec4 .product-list .product-item .row-item-right .same-box { text-align: center; }
 .section-box .tab-content .sec4 .product-list .product-item .row-item-right b { display: block; color: #fd0303; font-size: 30px; font-weight: normal; }
 .section-box .tab-content .sec4 .product-list .product-item .row-item-right i { font-size: 20px; }
 .section-box .tab-content .sec4 .product-list .product-item .row-item-right span { display: block; color: #333; font-size: 20px; margin-bottom: 15px; }
 .section-box .tab-content .sec4 .product-list .product-item .row-item-right button { width: 250px; height: 60px; line-height: 60px; border-radius: 5px; outline: 0 none; border: none; background: #fd0303; font-size: 18px; }
 .section-box .tab-content .sec5 .pinglun-item { padding: 30px 15px 15px; background: #fff; margin-bottom: 10px; }
-.section-box .tab-content .sec5 .pinglun-item .pinglun-top p { -webkit-box-align: start; -webkit-align-items: flex-start; -ms-flex-align: start; align-items: flex-start; }
+.section-box .tab-content .sec5 .pinglun-item .pinglun-top p { align-items: flex-start; }
 .section-box .tab-content .sec5 .pinglun-item .pinglun-top b { display: inline-block; width: 70px; height: 70px; border-radius: 50%; margin-right: 20px; }
-.section-box .tab-content .sec5 .pinglun-item .pinglun-top i { font-style: normal; -webkit-box-align: start; -webkit-align-items: flex-start; -ms-flex-align: start; align-items: flex-start; }
+.section-box .tab-content .sec5 .pinglun-item .pinglun-top i { font-style: normal; align-items: flex-start; }
 .section-box .tab-content .sec5 .pinglun-item .pinglun-top i strong { font-weight: normal; font-style: normal; color: #fba320; }
 .section-box .tab-content .sec5 .pinglun-item .pinglun-top i span { color: #666; }
 .section-box .tab-content .sec5 .pinglun-item .pinglun-top i span:nth-child(1) { margin-bottom: 10px; font-size: 22px; }
@@ -103,9 +103,9 @@ body { background: #f1f1f1; }
 .section-box .tab-content .sec5 .pinglun-item .pinglun-pic { height: 150px; margin: 20px 0; }
 .section-box .tab-content .sec5 .pinglun-item .pinglun-pic .left { width: 150px; height: 150px; }
 .section-box .tab-content .sec5 .pinglun-item .pinglun-pic .left img { width: 100%; height: 100%; }
-.section-box .tab-content .sec5 .pinglun-item .pinglun-pic .right { -webkit-box-flex: 1; -webkit-flex: 1; -ms-flex: 1; flex: 1; height: 100%; background: #f1f1f1; padding: 0 10px; }
+.section-box .tab-content .sec5 .pinglun-item .pinglun-pic .right { flex: 1; height: 100%; background: #f1f1f1; padding: 0 10px; }
 .section-box .tab-content .sec5 .pinglun-item .pinglun-pic .right i { font-style: normal; color: #D60A16; }
-.section-box .tab-content .sec5 .pinglun-item .pinglun-bot { -webkit-box-align: start; -webkit-align-items: flex-start; -ms-flex-align: start; align-items: flex-start; margin-bottom: 10px; }
+.section-box .tab-content .sec5 .pinglun-item .pinglun-bot { align-items: flex-start; margin-bottom: 10px; }
 .section-box .tab-content .sec5 .pinglun-item .pinglun-bot dt { width: 50px; height: 50px; margin-right: 15px; }
 .section-box .tab-content .sec5 .pinglun-item .pinglun-bot dd { color: #999; }
 .section-box .tab-content .sec5 .pinglun-item .pinglun-bot dd p i { font-style: normal; color: #fba320; }

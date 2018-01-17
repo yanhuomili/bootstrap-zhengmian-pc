@@ -3,7 +3,7 @@ body { background: #fff; }
 .jumbotron { margin: 0; padding: 0; }
 
 .top-content { width: 100%; height: 800px; color: #fff; background: url(../img/banner5.png) no-repeat center center; background-size: 1920px 100%; }
-.top-content .head { -webkit-box-align: start; -webkit-align-items: flex-start; -ms-flex-align: start; align-items: flex-start; }
+.top-content .head { align-items: flex-start; }
 .top-content .head .h-left { width: 50%; }
 .top-content .head .h-left h1 { font-size: 40px; margin: 90px 0 50px; }
 .top-content .head .h-right { width: 400px; height: 450px; }

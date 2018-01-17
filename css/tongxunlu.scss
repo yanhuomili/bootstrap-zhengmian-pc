@@ -330,6 +330,34 @@ body{
                         font-size: 20px;
                         border-bottom: 1px solid #ccc;
                     }
+                    .item-content{
+                        .new-friend-news{
+                            padding: 15px 20px;
+                            box-sizing: border-box;
+                            dt{
+                                p{
+                                    align-items: flex-start;
+                                    margin-left: 15px;
+                                    span:last-child{
+                                        font-size: 14px;
+                                    }
+                                }
+                            }
+                            dd{
+                                
+                                i{
+                                    display: inline-block;
+                                    width: 80px;
+                                    height: 40px;
+                                    line-height: 40px;
+                                    text-align: center;
+                                    margin: 0 15px;
+                                    font-size: 15px;
+                                    background: #fff;
+                                }
+                            }
+                        }
+                    }
                     .more{
                         width: 64px;
                         box-sizing: border-box;

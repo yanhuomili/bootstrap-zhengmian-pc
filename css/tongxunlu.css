@@ -58,6 +58,10 @@ body { background: #f1f1f1; }
 .chat-wrap .chat-right .sec2 .sec2-right { width: 70%; float: left; background: #f1f1f1; position: relative; }
 .chat-wrap .chat-right .sec2 .sec2-right .right-item { width: 100%; height: 100%; background: #F1F1F1; position: absolute; top: 0; left: 0; }
 .chat-wrap .chat-right .sec2 .sec2-right .right-item h2 { width: 100%; height: 60px; line-height: 60px; text-indent: 40px; font-size: 20px; border-bottom: 1px solid #ccc; }
+.chat-wrap .chat-right .sec2 .sec2-right .right-item .item-content .new-friend-news { padding: 15px 20px; box-sizing: border-box; }
+.chat-wrap .chat-right .sec2 .sec2-right .right-item .item-content .new-friend-news dt p { -webkit-box-align: start; -webkit-align-items: flex-start; -ms-flex-align: start; align-items: flex-start; margin-left: 15px; }
+.chat-wrap .chat-right .sec2 .sec2-right .right-item .item-content .new-friend-news dt p span:last-child { font-size: 14px; }
+.chat-wrap .chat-right .sec2 .sec2-right .right-item .item-content .new-friend-news dd i { display: inline-block; width: 80px; height: 40px; line-height: 40px; text-align: center; margin: 0 15px; font-size: 15px; background: #fff; }
 .chat-wrap .chat-right .sec2 .sec2-right .right-item .more { width: 64px; box-sizing: border-box; height: 54px; padding: 15px 20px; position: absolute; top: 0; right: 0; }
 .chat-wrap .chat-right .sec2 .sec2-right .right-item .more > img { width: 24px; height: 24px; float: right; }
 .chat-wrap .chat-right .sec2 .sec2-right .right-item .more ul { width: 150px; box-sizing: border-box; background: #fff; box-shadow: 0 0 10px #ccc; text-align: center; position: absolute; top: 50px; right: 0; display: none; }
